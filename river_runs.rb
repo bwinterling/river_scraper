@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'mechanize'
-# require 'pry'
+require 'pry'
 require 'csv'
 
 class RiverRuns
@@ -16,7 +16,7 @@ class RiverRuns
   end
 
   def collect_beta
-    @page = get_page("http://www.americanwhitewater.org/content/River/state-summary/state/CO/")
+    get_page("http://www.americanwhitewater.org/content/River/state-summary/state/CO/")
     links = page.links_with(:href => %r{/content/River/detail/id/}, :text => %r{\A\d})
 
     CSV.open("./beta.csv", "wb") do |csv|
@@ -56,7 +56,7 @@ class RiverRuns
   end
 
   def collect_runs
-    @page = get_page("http://www.americanwhitewater.org/content/River/state-summary/state/CO/")
+    get_page("http://www.americanwhitewater.org/content/River/state-summary/state/PA/")
     data = create_run_hash
     CSV.open("./runs.csv", "wb") do |csv|
       csv << ["river", "run"]
@@ -77,7 +77,7 @@ class RiverRuns
     page.links.each do |link|
       if link.href.include?("/content/River/detail/id")
         if data[link.href]
-          if link.text.scan(/\A\d/).empty?
+          if link.dom_class == 'rivername'
             data[link.href]["river"] = link.text.strip
           else
             data[link.href]["run"] = link.text
@@ -95,6 +95,8 @@ class RiverRuns
     data
   end
 
-  rr = RiverRuns.new
-  rr.collect_beta
 end
+rr = RiverRuns.new
+rr.collect_beta
+rr.collect_runs
+rr.collect_rivers
