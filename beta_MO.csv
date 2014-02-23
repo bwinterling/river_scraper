@@ -1,0 +1,8 @@
+state,run,difficulty,gauge,range,length,gradient
+MO,9. Ogden Whitewater Park ,II-III (for normal flows) ,usgs-10136500,500 - 600 cfs,"",""
+MO,8. Riverdale Play Park ,III (varies with level) ,usgs-10136500,300 - 4000 cfs,"",""
+MO,1. Highway H bridge one mile west of Syenite to Highway 72 bridge (10.7 miles) ,I-II (for normal flows) ,usgs-07034000,3.50 - 10.00 ft,10.7 Miles,9 fpm
+MO,2. (Upper St. Francis) Highway 72 bridge to Millstream Gardens (3.2 miles) ,II (varies with level) ,usgs-07034000,3.00 - 18.00 ft,3.2 Miles,13 fpm
+MO,3. (Lower St. Francis) Millstream Gardens to Silver Mines (2.3 miles) (Tiemann Shut-Ins),II-IV (varies with level) ,usgs-07034000,3.00 - 6.00 ft,35 fpm,58 fpm
+MO,1. (Upper Stouts) Off of Highway M west of Ironton (0.6 mile) ,III+ (for normal flows) ,usgs-07061270,2.50 - 10.00 ft,0.6 Miles,100 fpm
+MO,3. (Lower Stouts) Lake Killarney to St. Francis River (4.7 miles) ,II (for normal flows) ,usgs-07035000,5.00 - 10.00 ft,4.7 Miles,21 fpm

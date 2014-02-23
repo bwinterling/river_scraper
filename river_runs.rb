@@ -15,17 +15,30 @@ class RiverRuns
     @page = agent.get(url)
   end
 
-  def collect_beta
-    get_page("http://www.americanwhitewater.org/content/River/state-summary/state/CO/")
+  def states
+    ["CO", "PA", "KS", "UT", "MO"]
+  end
+
+  def collect_all_states
+    states.each do |state|
+      collect_beta(state)
+      collect_runs(state)
+      collect_rivers(state)
+    end
+  end
+
+  def collect_beta(state)
+    get_page("http://www.americanwhitewater.org/content/River/state-summary/state/#{state}/")
     links = page.links_with(:href => %r{/content/River/detail/id/}, :text => %r{\A\d})
 
-    CSV.open("./beta.csv", "wb") do |csv|
-      csv << ["run","difficulty","gauge","range","length","gradient"]
+    CSV.open("./beta_#{state}.csv", "wb") do |csv|
+      csv << ["state","run","difficulty","gauge","range","length","gradient"]
 
       links.each do |link|
         link_page = link.click
 
         csv << [
+          state,
           link_page.search("h2")[1].children.text, #run_name
           link_page.search(".row-1").search("td")[0].children.text, #difficulty
           find_gauge(link_page),
@@ -55,19 +68,19 @@ class RiverRuns
     end
   end
 
-  def collect_runs
-    get_page("http://www.americanwhitewater.org/content/River/state-summary/state/PA/")
+  def collect_runs(state)
+    get_page("http://www.americanwhitewater.org/content/River/state-summary/state/#{state}/")
     data = create_run_hash
-    CSV.open("./runs.csv", "wb") do |csv|
+    CSV.open("./runs_#{state}.csv", "wb") do |csv|
       csv << ["river", "run"]
       data.each { |key, value| csv << [value["river"],value["run"]] }
     end
   end
 
-  def collect_rivers
-    rows = CSV.read("./runs.csv")
+  def collect_rivers(state)
+    rows = CSV.read("./runs_#{state}.csv")
     rivers = rows.map { |row| row[0] }.uniq
-    CSV.open("./rivers.csv", "wb") do |csv|
+    CSV.open("./rivers_#{state}.csv", "wb") do |csv|
       rivers.each { |river| csv << [river] }
     end
   end
@@ -97,6 +110,4 @@ class RiverRuns
 
 end
 rr = RiverRuns.new
-rr.collect_beta
-rr.collect_runs
-rr.collect_rivers
+rr.collect_all_states

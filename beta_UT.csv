@@ -1,0 +1,40 @@
+state,run,difficulty,gauge,range,length,gradient
+UT,5. Ohiopyle Falls ,IV (for normal flows) ,usgs-03081500,1.30 - 1.80 ft,0.25 Miles,""
+UT,6. Lower (Ohiopyle to Bruner Run),III (for normal flows) ,usgs-03081500,1.20 - 9.00 ft,7.4 Miles,25 fpm
+UT,14. Loma launch to Westwater launch (Ruby - Horsethief) (Ruby / Horsethief Canyon),II (for normal flows) ,usgs-09163500,200 - 40000 cfs,25 Miles,7 fpm
+UT,15. Westwater to Rose Ranch (Westwater Canyon) ,I-IV (varies with level) ,usgs-09163500,2000 - 20000 cfs,17 Miles,9 fpm
+UT,16. Cisco (Rose Ranch) to Moab (Professor Valley),I-III (for normal flows) ,usgs-09180500,2000 - 15000 cfs,47 Miles,5 fpm
+UT,17. Moab to Powell Reservoir (Cataract Canyon) ,I-IV (for normal flows) ,virtual-8918,3000 - unknown cfs,112 Miles,16 fpm
+UT,06. Gateway to Colorado River (UT) ,II+(IV) (for normal flows) ,usgs-09180000,1000 - 4000 cfs,30 Miles,14 fpm
+UT,1. Torrey to Capitol Reef Campground ,III-V+ (for normal flows) ,usgs-09330230,200 - 5000 cfs,9 Miles,130 fpm
+UT,2. Capitol Reef Campground to Waterfall ,II-III (for normal flows) ,"","",7 Miles,180 fpm
+UT,1- Flaming Gorge to Lodore (CO) ,I-II (for normal flows) ,usgs-09234500,200 - 5000 cfs,46 Miles,""
+UT,2- Lodore to Echo Park (Gates of Lodore),II-IV (for normal flows) ,usgs-09234500,300 - 5000 cfs,44 Miles,13 fpm
+UT,3- Echo Park (CO) to Split Mountain (Split Mountain Canyon),II-IV (for normal flows) ,usgs-09261000,200 - 20000 cfs,44 Miles,""
+UT,4- Ouray to Green River Town (Desolation & Gray) (Desolation & Gray Canyons),II-III (for normal flows) ,usgs-09315000,900 - 50000 cfs,128 Miles,""
+UT,5- Green River Town to Colorado Confluence (Labyrinth and Stillwater) (Labyrinth and Stillwater Canyons),I (for normal flows) ,usgs-09315000,1000 - 20000 cfs,120 Miles,2 fpm
+UT,1. Scofield Reservoir to picnic area above Price Canyon ,I-III (for normal flows) ,usgs-09313000,0 - unknown cfs,15 Miles,""
+UT,2. Picnic area above Price Canyon to Castle Gate (Price Canyon) ,III-V (for normal flows) ,usgs-09313000,0 - unknown cfs,8.5 Miles,""
+UT,3. Woodside (US 6 Bridge) to confluence with Green River ,III-V (for normal flows) ,usgs-09314500,200 - 8000 cfs,"",""
+UT,"1. Upper - Provo Falls, Slate Gorge (Provo Falls, Slate Gorge)",IV-V (for normal flows) ,usgs-10154200,600 - 2500 cfs,5.5 Miles,225 fpm
+UT,2. Soapstone to Woodland ,I-IV (for normal flows) ,usgs-10154200,500 - 1000 cfs,9.5 Miles,""
+UT,4. Woodland ,II-III (for normal flows) ,usgs-10154200,300 - 1000 cfs,6 Miles,76 fpm
+UT,7. Deer Creek Reservoir to Utah Lake ,I-IV (for normal flows) ,usgs-10159500,0 - unknown cfs,17.5 Miles,""
+UT,1. Sand Island to Mexican Hat (Upper San Juan),II (for normal flows) ,usgs-09379500,500 - 8000 cfs,26.5 Miles,""
+UT,2. Mexican Hat to Clay Hills Crossing (Lower San Juan),I-II(III) (for normal flows) ,usgs-09379500,500 - 8000 cfs,56 Miles,11 fpm
+UT,1. Fuller Bottom to San Rafael Campground (Little Grand Canyon) ,I-II (for normal flows) ,usgs-09328500,200 - 500 cfs,20 Miles,""
+UT,2. Bridge at San Rafael Campground to I-70 (Black Boxes 1 & 2) ,III-V (for normal flows) ,usgs-09328500,375 - 900 cfs,42 Miles,""
+UT,1) Chamberlain Ranch to Temple of Sinawava (Zion Narrows) ,III-IV (for normal flows) ,usgs-09405500,150 - 1000 cfs,16 Miles,87 fpm
+UT,2) Sinawava to South Campground (Zion NP) ,III-V (for normal flows) ,usgs-09405500,150 - 600 cfs,8.5 Miles,55 fpm
+UT,1) South Campground (Zion NP) or Springdale to Virgin ,II (for normal flows) ,usgs-09405500,200 - 3000 cfs,14 Miles,25 fpm
+UT,2) Timpoweap Canyon: Virgin to LaVerkin ,IV-V(V+) (for normal flows) ,usgs-09406000,500 - 750 cfs,3 Miles,100 fpm
+UT,3) LaVerkin to Hurricane ,III (for normal flows) ,usgs-09408150,400 - 10000 cfs,13 Miles,25 fpm
+UT,1. Holiday Park to Rockport Lake ,I (for normal flows) ,usgs-10128500,150 - 2500 cfs,"",""
+UT,2. Rockport Lake to Echo Reservoir ,I (for normal flows) ,usgs-10130500,200 - 2000 cfs,"",""
+UT,3. Echo Reservoir to Henefer ,I (for normal flows) ,usgs-10132000,200 - 3000 cfs,6.2 Miles,""
+UT,4. Hennifer to Taggarts ,II(III) (for normal flows) ,usgs-10132000,200 - 3500 cfs,5 Miles,18 fpm
+UT,5 Taggarts to Gateway ,I (for normal flows) ,usgs-10136500,300 - 5000 cfs,"",""
+UT,6. Scrambled Egg Bend to 89 (The Eggs),III-IV+ (for normal flows) ,usgs-10136500,500 - 3000 cfs,3 Miles,""
+UT,7. I-89 to Riverdale ,III (for normal flows) ,usgs-10136500,1400 - 1800 cfs,6 Miles,""
+UT,8. Riverdale Play Park ,III (varies with level) ,usgs-10136500,300 - 4000 cfs,"",""
+UT,9. Ogden Whitewater Park ,II-III (for normal flows) ,usgs-10136500,500 - 600 cfs,"",""

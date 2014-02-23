@@ -1,0 +1,30 @@
+state,run,difficulty,gauge,range,length,gradient
+PA,02. Bible Camp to Crystal River (Lower Yule),V+ (for normal flows) ,"","",1.3 Miles,646 fpm
+PA,01. Headwaters Run ,V (for normal flows) ,"","",345 fpm,581 fpm
+PA,1.7 mi. above Pavia to Weyant ,I-III (for normal flows) ,usgs-01560000,1000 - 6000 cfs,5.9 Miles,37 fpm
+PA,1. Icedale Road (T443) to PA 340 ,I-III (for normal flows) ,usgs-01481000,4.00 - 6.00 ft,6.6 Miles,34 fpm
+PA,2. PA 340 to Mortonville ,III (for normal flows) ,usgs-01481000,3.20 - 5.00 ft,6.6 Miles,20 fpm
+PA,3. Mortonville to Lenape ,I (for normal flows) ,usgs-01481000,200 - 1000 cfs,12 Miles,7 fpm
+PA,1) Salisbury to Markleton ,I-II (for normal flows) ,usgs-03079000,2.00 - 7.50 ft,27.1 Miles,""
+PA,2) Markleton to Harnedsville (Confluence) ,II-III (for normal flows) ,usgs-03079000,2.00 - 5.00 ft,11.8 Miles,40 fpm
+PA,1. Smulton to Penns Creek ,I-III (for normal flows) ,"","",7.8 Miles,""
+PA,2. Lincoln Falls (PA Route 154) to Loyalsock Creek ,I-II (for normal flows) ,"","",4.7 Miles,""
+PA,1. Acme to Laurelville (Freeman Falls to Mennonite Church camp ground),III-IV (for normal flows) ,"","",4.5 Miles,""
+PA,2. Chaintown to Youghiogheny River ,II-III (for normal flows) ,"","",7.1 Miles,""
+PA,1. Stillwater Lake to Carbondale ,I-III (for normal flows) ,usgs-01534300,100 - 1000 cfs,9.8 Miles,""
+PA,2. Carbondale to Susquehanna R. ,I-IV (for normal flows) ,usgs-01534500,100 - 1000 cfs,26.8 Miles,""
+PA,0. Francis Walters Dam to White Haven (Top),II(III) (for normal flows) ,usgs-01447800,700 - 10000 cfs,6.75 Miles,15 fpm
+PA,1. White Haven to Rockport (Upper),II+(III) (for normal flows) ,usgs-01447800,450 - 10000 cfs,9 Miles,30 fpm
+PA,2. Rockport to Glen Onoko (Lower),II-III (for normal flows) ,usgs-01447800,450 - 10000 cfs,12.5 Miles,30 fpm
+PA,3. Jim Thorpe to Bowmanstown (Section III),I-II (for normal flows) ,usgs-01449000,450 - 5000 cfs,6.9 Miles,12 fpm
+PA,"4. PA Rte 435 to Canal Park, Allentown ",I-III (for normal flows) ,usgs-01453000,1000 - 5000 cfs,82.1 Miles,""
+PA,1. Lopez to US 220 (Upper Loyalsock),I-II (for normal flows) ,usgs-01552000,3.50 - 8.00 ft,"",""
+PA,2. US 220 to Forksville (Lower Loyalsock),I-IV (for normal flows) ,usgs-01552000,5.00 - 8.50 ft,13 Miles,45 fpm
+PA,"1. Kennedy Mill (Frew Mill Rd., SR 1012) to Eckert's Bridge (Slippery Rock Gorge)",II-III (varies with level) ,virtual-6363,0.50 - 3.00 ft,4.7 Miles,23 fpm
+PA,"2. Eckert's Bridge to Harris Bridge (Mountville Rd, SR 2030) (Lower Slippery Rock)",II (for normal flows) ,usgs-03106500,400 - 5000 cfs,3.5 Miles,20 fpm
+PA,1 - Stony Gorge (Shanksville (Covered Bridge) to Mostoller),III-IV (for normal flows) ,usgs-03040000,4.60 - 10.00 ft,3.97 Miles,""
+PA,2 - Hollsopple to Foustwell ,II+(III) (for normal flows) ,usgs-03040000,3.00 - 10.00 ft,1.7 Miles,""
+PA,3 - Stony Canyon (Foustwell to Carpenters Park),III-IV (for normal flows) ,usgs-03040000,3.40 - 6.75 ft,4.6 Miles,""
+PA,4. Middle (Confluence to Ohiopyle),II (for normal flows) ,usgs-03081000,1.50 - 11.00 ft,9.1663 Miles,11 fpm
+PA,5. Ohiopyle Falls ,IV (for normal flows) ,usgs-03081500,1.30 - 1.80 ft,0.25 Miles,""
+PA,6. Lower (Ohiopyle to Bruner Run),III (for normal flows) ,usgs-03081500,1.20 - 9.00 ft,7.4 Miles,25 fpm
